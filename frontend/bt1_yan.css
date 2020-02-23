@@ -1,0 +1,52 @@
+* {margin: 0; padding: 0;}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.mlog-icon {
+    color: red;
+}
+
+.list-news h2 {
+    font-family: 'Roboto';
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #303030;
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+.list-news h2 i {
+    padding-right: 8px;
+}
+
+.list-news img {
+    border-radius: 6px;
+    width: 357px;
+}
+
+.list-news-item {
+    margin-bottom: 20px;
+}
+
+.list-news .list-news-item p {
+    margin-top: -1px;
+    line-height: 1.25;
+}
+
+.list-news .list-news-item p a {
+    color: #303030;
+    font-weight: 700;
+    line-height: 1.33;
+    font-size: 18px;
+}
+
+.list-news .list-news-item a:hover {
+    color: #E22027;
+}
+
+.list-news-item .description {
+    font-size: 14px;
+    color: #888A8C;
+}
