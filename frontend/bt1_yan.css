@@ -1,15 +1,32 @@
 * {margin: 0; padding: 0;}
 
-a, a:hover, a:visited {
-    text-decoration: none;
-}
-
-.mlog-icon {
-    color: red;
-}
-
-.list-news h2 {
+body {
     font-family: 'Roboto';
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+a:hover, a:visited {
+    text-decoration: none;
+    color: #e22027;
+}
+
+/* breadcrum */
+.breadcrumb-zone {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* content */
+.cate-title i {
+    color: red;
+    padding-right: 8px;
+}
+
+.cate-title {
+    /* font-family: 'Roboto'; */
     font-weight: 800;
     text-transform: uppercase;
     color: #303030;
@@ -17,13 +34,13 @@ a, a:hover, a:visited {
     font-size: 24px;
 }
 
-.list-news h2 i {
+/* .list-news h2 i {
     padding-right: 8px;
-}
+} */
 
 .list-news img {
     border-radius: 6px;
-    width: 357px;
+    /* width: 357px; */
 }
 
 .list-news-item {
@@ -42,11 +59,65 @@ a, a:hover, a:visited {
     font-size: 18px;
 }
 
-.list-news .list-news-item a:hover {
+/* .list-news .list-news-item a:hover {
     color: #E22027;
-}
+} */
+/* .list-news .list-news-item p a:hover, .list-news .list-news-item p a:visited {
+    text-decoration: none;
+    color: #e22027;
+} */
 
 .list-news-item .description {
     font-size: 14px;
     color: #888A8C;
+}
+
+.readmore {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.readmore a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #DC3545;
+    border: #DC3545 solid 2px;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+
+/* phan lazyZone */
+
+.cate-list-news .first-post img {
+    border-radius: 6px;
+    /* width: 357px; */
+}
+
+.cate-list-news .first-post .first-post-title {
+    color: #303030;
+    font-weight: 700;
+    line-height: 1.33;
+    font-size: 18px;
+    margin-top: 7px;
+    min-height: 80px;
+}
+
+/* .cate-list-news .first-post a:hover, .cate-list-news .first-post a:visited {
+    text-decoration: none;
+    color: #e22027;
+} */
+
+.cate-list-news .cate-list-news-item {
+    margin-top: 15px;
+    min-height: 116px;
+}
+
+.cate-list-news .cate-list-news-item img {
+    border-radius: 6px;
+}
+
+.cate-list-news .cate-list-news-item a {
+    color: #303030;
+    font-weight: 700;
+    font-size: 14px;
 }
