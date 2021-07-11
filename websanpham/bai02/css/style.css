@@ -1,0 +1,160 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.align-center {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header {
+    width: 90%;
+    margin: 0 auto;
+} */
+
+.header__logo img {
+    width: 200px;
+}
+
+.header__navbar {
+    background-color: black;
+}
+
+.header__navbar ul {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.header__navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header__navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header__navbar ul li a:hover {
+    color: red;
+}
+
+.header__navbar ul li a.active {
+    color: orange;
+}
+
+/* .carousel { */
+/* width: 90%;
+    margin: 10px auto; */
+/* } */
+
+.carousel {
+    height: 450px;
+    background-image: url(../images/slider_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    margin-top: 10px;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.intro__text {
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.intro__text span {
+    color: red;
+}
+
+.intro__left,
+.intro__right {
+    width: 50%;
+    float: left;
+}
+
+.intro__product {
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.intro__product--small {
+    width: 50%;
+}
+
+.intro__product img {
+    display: block;
+    width: 100%;
+}
+
+.product {
+    margin-top: 20px;
+}
+
+.product h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product__list {
+    margin-top: 20px;
+}
+
+.product__item {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.product__item h2 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.product__item img {
+    width: 100%;
+    display: block;
+}
+.product__item p {
+    font-size: 14px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+.product__item a {
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: rgb(211, 44, 44);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product__item a:hover {
+    background-color: red;
+}

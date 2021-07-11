@@ -1,0 +1,25 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    /* xóa margin padding mặc định của trình duyệt */
+    /* mỗi trình duyệt khác nhau */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* phải khai báo ở html thì nó mới hiểu đơn vị rem */
+    /* chữ nào cũng mặc định là 18px */
+    /* 1rem = 18px (mình set 1 rem = 18px)*/
+    /* chỉ cần đổi 1 chỗ này, tất cả các chỗ khác thay đổi theo */
+    /* không khai báo thì 1rem = 16px */
+    font-size: 10px;
+    /* khai bao 10px dễ tính hơn */
+    /* font-size: 10px; */
+}
+
+body {
+    /* Cài đặt font chữ từ google font */
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
