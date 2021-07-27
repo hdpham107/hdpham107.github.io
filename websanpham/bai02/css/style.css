@@ -9,15 +9,10 @@
     clear: both;
 }
 
-.align-center {
+.wrapper {
     width: 90%;
     margin: 0 auto;
 }
-
-/* header {
-    width: 90%;
-    margin: 0 auto;
-} */
 
 .header__logo img {
     width: 200px;
@@ -52,11 +47,6 @@
     color: orange;
 }
 
-/* .carousel { */
-/* width: 90%;
-    margin: 10px auto; */
-/* } */
-
 .carousel {
     height: 450px;
     background-image: url(../images/slider_1.jpg);
@@ -65,10 +55,12 @@
     background-size: cover;
     background-clip: content-box;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .intro {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .intro__text {
@@ -109,6 +101,7 @@
 
 .product {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .product h1 {
@@ -116,14 +109,18 @@
     font-size: 40px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .product__list {
-    margin-top: 20px;
+    background-color: aqua;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
 }
 
 .product__item {
     float: left;
-    width: 25%;
-    padding: 10px;
+    /* width: 25%; */
+    border: 1px solid red;
+    /* padding: 15px; */
 }
 
 .product__item h2 {
@@ -157,4 +154,64 @@
 
 .product__item a:hover {
     background-color: red;
+}
+
+.banner {
+    background-image: url("../images/nature.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    height: 300px;
+    position: relative;
+}
+
+.banner__circle {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+}
+
+.banner__circle h1 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.banner__circle h1:first-child {
+    margin-top: 40px;
+}
+
+.services__content {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.services__item {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.services__item i {
+    font-size: 40px;
+    padding: 20px;
+}
+
+footer {
+    /* height: 150px; */
+    background-color: black;
+}
+
+.footer__content {
+    /* width: 60%; */
+    /* margin: 20px auto; */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
 }
